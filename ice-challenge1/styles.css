@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(93,161,215);
+}
+
+body {
+    text-align: center;
+}
+
+h1, .tiny, .bollet, .large {
+    color: white
+}
+
+body {
+    margin-right: 28%;
+    margin-left:28%;
+}
+
+.tiny, .large {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bollet, ol, .foot {
+    font-weight: bold;
+}
+
+.tiny {
+    line-height: 30px;
+}
+
+ol {
+    text-align: left;
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+img {
+    width: 38%;
+}
+
+.large {
+    font-size: 40px;
+    margin-inline: 55px;
+}
+
+.foot {
+    margin: 10px;
+    line-height: 1.2;
+}

@@ -10,11 +10,6 @@ h1, .tiny, .bollet, .large {
     color: white
 }
 
-body {
-    margin-right: 28%;
-    margin-left:28%;
-}
-
 .tiny, .large {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -23,12 +18,19 @@ body {
     font-weight: bold;
 }
 
+h1:hover{
+    color: black
+}
+
 .tiny {
     line-height: 30px;
 }
 
 ol {
-    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align:left;
 }
 
 li + li {
@@ -36,12 +38,17 @@ li + li {
 }
 
 img {
-    width: 38%;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .large {
     font-size: 40px;
-    margin-inline: 55px;
+    margin: auto;
+    width: 350px;
+    
 }
 
 .foot {

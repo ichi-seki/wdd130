@@ -1,0 +1,55 @@
+body {
+    background-color: darkgray;
+    text-align: center;
+}
+
+    .dark {
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 100%;
+    height: 30vh;
+    background-color: dimgray;
+    padding: 3%;
+} 
+
+ .dark {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    width: 100%;
+    margin: auto;
+}  
+
+
+h1, h4 {
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20% 5% 5% 15%;
+    text-align: right;
+}
+
+h4 {
+    font-size: 35px;
+    text-align: right;
+    color: dimgray;
+    margin-right: 5%;
+}
+
+
+.dark img {
+    width: 180px;
+    border-radius: 100%;
+}
+
+img {
+    border: 10px solid #404040;
+    /* justify-content: space-between; */
+    margin-left: 20%;
+    /* width: 20%;
+    margin: 10%; */
+}

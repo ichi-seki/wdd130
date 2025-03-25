@@ -11,9 +11,8 @@ h1 {
 
 .logo {
     width: 60px;
-    position:relative;
-    left: 30px;
-    top: 3px;
+    /* position:relative;
+    left: 30px; */
 }
 
 header{
@@ -27,4 +26,32 @@ header .main {
 
 nav .link {
     margin: 20px 30px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(117,217,102);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.alunet{
+    grid-column: 1/2;
+    justify-self: center;
+}
+
+.first{
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+.second{
+    grid-column: 3/4;
+    justify-self: center;
+}
+
+.third{
+    grid-column: 4/5;
+    justify-self: center;
 }

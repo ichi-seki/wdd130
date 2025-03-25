@@ -19,9 +19,7 @@ h1 {
 
 .logo {
     width: 60px;
-    position:relative;
-    left: 30px;
-    top: 3px;
+    margin: 0 30px;
 }
 
 header{
@@ -31,6 +29,7 @@ header{
 
 header .main {
     margin: 20px auto;
+    align-content: center;
 }
 
 nav .link {
@@ -39,6 +38,17 @@ nav .link {
 
  h1, .bottom {
     text-align: center;
+}
+
+.top p{
+    text-align: center;
+}
+
+#hero{
+    margin:30px;
+    border-top: 30px solid #ffd78d;
+    border-bottom: 30px solid #ffd78d;
+    border-color: #FFD78D;
 }
 
 .top {
@@ -53,6 +63,7 @@ main img{
 .top .finding, .msgf, .f, .f-b{
     grid-column: 1/2;
     justify-self: center;
+    align-self: center;
 }
 
 .top .sending, .msgs, .s, .s-b{
@@ -60,10 +71,56 @@ main img{
     justify-self: center;
 }
 
-.top p{
+.top p, .bottom p{
     font-size: 20px;
 }
 
-footer{
-    background-color: rgb(117,217,102);
+.bottom {
+    margin-top: 100px;
 }
+
+.bottom p{
+    margin-top: -20px;
+}
+
+.bottom a{
+    margin-top: -20px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(117,217,102);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.alunet{
+    grid-column: 1/2;
+    justify-self: center;
+}
+
+.first{
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+.second{
+    grid-column: 3/4;
+    justify-self: center;
+}
+
+.third{
+    grid-column: 4/5;
+    justify-self: center;
+}
+
+/* body {
+    background: repeating-linear-gradient(
+        45deg,
+        rgb(117,217,102),
+        rgb(117,217,102) 15px,
+    #fff 0,
+    #fff 800px
+    );
+} */

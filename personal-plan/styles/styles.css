@@ -115,6 +115,14 @@ footer{
     justify-self: center;
 }
 
+a:hover{
+    color: rgb(117,217,102);
+}
+
+header a:hover, footer a:hover{
+    color: #FFD78D;
+}
+
 /* body {
     background: repeating-linear-gradient(
         45deg,

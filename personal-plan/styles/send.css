@@ -56,3 +56,102 @@ footer{
     grid-column: 4/5;
     justify-self: center;
 }
+
+h1{
+    margin:30px;
+    padding: 30px 0;
+    margin: 60px 0;
+    border-top: 30px solid #ffd78d;
+    border-bottom: 30px solid #ffd78d;
+    border-color: #FFD78D;
+}
+
+main{
+    margin: 200px;
+}
+
+p, li{
+    font-size: 24px;
+    font-family:Roboto;
+}
+
+header p, footer p {
+    font-size: 18px;
+}
+
+h1, .main a, h2{
+    font-family: "Orbitron";
+    text-align: center;
+}
+
+a:hover{
+    color: rgb(117,217,102);
+}
+
+header a:hover, footer a:hover{
+    color: #FFD78D;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.hero p, ol{
+    margin: 0 200px 30px 200px;
+}
+
+.example{
+    background-color: rgb(117,217,102);
+    padding:  10px 30px;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: rgb(117,217,102);
+    text-shadow: 1px 2px 0px black;
+    font-size: 40px;
+}
+
+ol, ul{
+    font-size: 20px;
+}
+
+ol{
+    margin-bottom: -80px;
+}
+
+.key{
+    border-bottom: 3px solid #FFD78D;
+    display: inline-block;
+}
+
+.sec{
+    margin-top: 80px;
+}
+
+ul{
+    margin-top: -10px;
+}
+
+.box{
+    margin-top: 60px;
+    text-align: center;
+    background-color: #FFD78D;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+ol{
+    padding-bottom: 30px;
+    list-style-position: inside;
+}
+li{
+    margin-bottom: 20px;
+}
+
+.last{
+    margin: 60px 0;
+    margin-bottom: -50px;
+}
